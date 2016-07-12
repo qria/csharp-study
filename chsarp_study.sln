@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chsarp_study", "chsarp_study\chsarp_study.csproj", "{5D448401-7060-4DB6-848E-FF836D95B117}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chsarp_studyTests", "chsarp_studyTests\chsarp_studyTests.csproj", "{EA82473F-5A8F-41F0-8C87-2705F5220A22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D448401-7060-4DB6-848E-FF836D95B117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D448401-7060-4DB6-848E-FF836D95B117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D448401-7060-4DB6-848E-FF836D95B117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D448401-7060-4DB6-848E-FF836D95B117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA82473F-5A8F-41F0-8C87-2705F5220A22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA82473F-5A8F-41F0-8C87-2705F5220A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA82473F-5A8F-41F0-8C87-2705F5220A22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA82473F-5A8F-41F0-8C87-2705F5220A22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
