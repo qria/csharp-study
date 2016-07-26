@@ -1,19 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
+
 
 namespace chsarp_study {
     public class Program {
-        static void Main(string[] args) {
-            int[][] towers = new int[][] {
-                new int[] {3, 1, 1},
-                new int[] {1},
-                new int[] {4, 3, 2, 1}
-            };
-
-            PrintTowers(towers);
-        }
-
         public static void PrintTowers(int[][] towers, int height = 0) {
             /* Draw towers
              * If height is not given, it is automatically determined to be the maximum height of the tower.
