@@ -92,16 +92,16 @@ namespace chsarp_study
         }
     }
 
-    public class MainExecuter {
-        static void Main(String[] args) {
-            List<Shape> shapes = new List<Shape>();
-            shapes.Add(new Rectangle(10, 10, 10, 20));
-            shapes.Add(new Triangle(10, 10, 10, 10, 4));
-            shapes.Add(new Circle(15, 15, 10, 7));
+    //public class MainExecuter {
+    //    static void Main(String[] args) {
+    //        List<Shape> shapes = new List<Shape>();
+    //        shapes.Add(new Rectangle(10, 10, 10, 20));
+    //        shapes.Add(new Triangle(10, 10, 10, 10, 4));
+    //        shapes.Add(new Circle(15, 15, 10, 7));
             
-            foreach (Shape s in shapes) {
-                s.Draw();
-            }
-        }
-    }
+    //        foreach (Shape s in shapes) {
+    //            s.Draw();
+    //        }
+    //    }
+    //}
 }
